@@ -24,10 +24,10 @@ Bootstrap can be installed multiple ways, but the code has been included into th
 1. Mobile number
 
 # Application Workflow #
-The web form collects the user�s mobile number and sends a unique verification code via SMS that is used to validate the phone number. Once the user enters the data, the application will check the status of the request. HTML5 along with Javascript is used for input data validation, and the request if then checked with our REST API function GET REPORT.
+The web form collects the user's mobile number and sends a unique verification code via SMS that is used to validate the phone number. Once the user enters the data, the application will check the status of the request. HTML5 along with Javascript is used for input data validation, and the request if then checked with our REST API function GET REPORT.
 
 The files included are:
-1. index.php - home page that collects user�s information.
+1. index.php - home page that collects user's information.
 2. verification.php - page where the user enters the verification code to verify their phone number.
 3. complete.php - simple thank you page.
 4. authentication.php - PHP page that has the two-factor authentication and status report functions.
